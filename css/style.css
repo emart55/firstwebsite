@@ -95,8 +95,40 @@ nav {
 	display: none;
 }
 
-.logo, header svg {
+.logo, .hamburger-icon {
 	height: 50px;
+}
+
+@media (min-width: 768px){
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	header a {
+		text-decoration: none;
+		color: var(--black);
+	}
+
+
+	nav {
+		display: inline-block;
+	}
+
+	header button {
+		all: unset;
+	}
+
+	header nav ul {
+		display: flex;
+		gap: 24px;
+		margin-right: 16px;
+	}
+
+	.logo, .hamburger-icon {
+		height: 50px;
+	}
 }
 
 .mobile-header {
@@ -118,14 +150,36 @@ nav {
 	margin-bottom: 24px;
 }
 
+
+@media (min-width: 768px){
+	#hero h1 {
+		font-size: 3.5rem;
+		max-width: 70%;
+	}
+
+	#hero {
+		padding: 120px 56px;
+	}
+}
+
 #hero .hero-accent {
 	color: white;
 }
 
 /* Workshops Article */
 
+#courses {
+	display: flex;
+}
+
 #courses article {
 	padding: 32px 16px;
+}
+
+@media (min-width: 768px) {
+	#courses article {
+		padding: 56px;
+	}
 }
 
 #courses article .icon {
@@ -166,6 +220,19 @@ nav {
 #contact h2 {
 	margin-bottom: 16px;
 }
+
+@media (min-width: 768px){
+	#contact h2 {
+		text-align: center;
+		font-size: 2.5rem;
+	}
+
+	#contact form {
+		max-width: 60%;
+		margin: 0 auto;
+	}
+}
+
 
 #contact input[type="submit"] {
 	background-color: var(--pink);
