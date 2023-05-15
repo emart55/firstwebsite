@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +8,54 @@
     <title>She Codes</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-    <body>
+
+<body>
     <header>
         <div class="mobile-header">
             <img src="img/logo.png" alt="The She Codes Logo" class="logo">
             <button class="hamburger-button">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="hamburger-icon">
-                    <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                    <path fill-rule="evenodd"
+                        d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                        clip-rule="evenodd" />
                 </svg>
             </button>
         </div>
-        <nav>
+        <nav class="desktop-nav">
             <ul>
                 <li>
-                <a href="https://www.google.com/">Coders</a>
+                    <a href="https://www.google.com/">Coders</a>
                 </li>
                 <li>
-                <a href="https://www.google.com/">Mentors</a>
+                    <a href="https://www.google.com/">Mentors</a>
                 </li>
                 <li>
-                <a href="https://www.google.com/">Partners</a>
+                    <a href="https://www.google.com/">Partners</a>
                 </li>
                 <li>
-                <a href="https://www.google.com/">Blog</a>
+                    <a href="https://www.google.com/">Blog</a>
                 </li>
                 <li>
-                <a href="https://www.google.com/">Contact</a>
+                    <a href="https://www.google.com/">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="mobile-nav display-none">
+            <ul>
+                <li>
+                    <a href="https://www.google.com/">Coders</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/">Mentors</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/">Partners</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/">Blog</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -46,46 +68,52 @@
         <article class="workshops">
             <img src="img/screw.png" class="icon" alt="Screw Image">
             <h2>1 Day Workshops</h2>
-            <p>Whether you're interested in coding as a career, or just looking to see what it's all about, our free one day workshops are the perfect starting point.</p>
+            <p>Whether you're interested in coding as a career, or just looking to see what it's all about, our free one
+                day workshops are the perfect starting point.</p>
             <a href="#" class="btn-secondary">Apply</a>
         </article>
         <article class="flash">
             <img src="img/bolt.png" class="icon" alt="Bolt Image">
             <h2>1 Week Flash</h2>
-            <p>Discover the fundamentals of tech in just one week. Flash is a one week taster program, aimed at teaching you the basics of the key emerging fields in tech.</p>
+            <p>Discover the fundamentals of tech in just one week. Flash is a one week taster program, aimed at teaching
+                you the basics of the key emerging fields in tech.</p>
             <a href="#" class="btn-secondary">Apply</a>
         </article>
-            <article class="plus">
-                <img src="img/plus.png" class="icon" alt="Plus Image">
-                    <h2>6 Month Plus</h2>
-                    <p>She Codes is a program providing an alternate pathway within tech. The Plus program is perfect for you if your desire is to enter a tech career.</p>
-                    <a href="#" class="btn-secondary">Apply</a>
-            </article>
+        <article class="plus">
+            <img src="img/plus.png" class="icon" alt="Plus Image">
+            <h2>6 Month Plus</h2>
+            <p>She Codes is a program providing an alternate pathway within tech. The Plus program is perfect for you if
+                your desire is to enter a tech career.</p>
+            <a href="#" class="btn-secondary">Apply</a>
+        </article>
     </section>
-            <section id="contact">
-                <h2>Get in touch</h2>
+    <section id="contact">
+        <h2>Get in touch</h2>
         <form action="">
-                    <label for="yourname">Your Name</label>
-                    <input type="text" id="yourname">
-                    <label for="yourcity">Your City</label>
-                    <select name="city-selection" id="city">
-                    <option value="Brisbane">Brisbane</option>
-                    <option value="Sydney">Sydney</option>
-                    <option value="Melbourne">Melbourne</option></select>
-                    <label for="message">Your Message</label>
-                    <textarea name="message-text" id="yourmessage" rows="10"></textarea>
-                    <input type="submit" value="submit">
+            <label for="yourname">Your Name</label>
+            <input type="text" id="yourname">
+            <label for="yourcity">Your City</label>
+            <select name="city-selection" id="city">
+                <option value="Brisbane">Brisbane</option>
+                <option value="Sydney">Sydney</option>
+                <option value="Melbourne">Melbourne</option>
+            </select>
+            <label for="message">Your Message</label>
+            <textarea name="message-text" id="yourmessage" rows="10"></textarea>
+            <input type="submit" value="submit">
         </form>
-        </section>
-        <footer>
-        <small>This website was made with 💙 by Emily - See my Linkedin profile here: <a href="https://www.linkedin.com/in/emily-martin-7962ba1a8/">Linkedin </a></small>
-        </footer>
-        <script src="js/script.js"></script>
-    </body>
-    </html>
+    </section>
+    <footer>
+        <small>This website was made with 💙 by Emily - See my Linkedin profile here: <a
+                href="https://www.linkedin.com/in/emily-martin-7962ba1a8/">Linkedin </a></small>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
 
 
-    
+
 <!--message
 Header Navigation:
     ●   Logo
@@ -109,4 +137,4 @@ Courses Sections:
 —
     ●   TITLE: 6 Month Plus
     ●   CONTENT: She Codes Plus is a program providing an alternate pathway within tech. The Plus program is perfect for you if your desire is to enter a tech career.
-    ●   LINK: Apply--> 
+    ●   LINK: Apply-->
